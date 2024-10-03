@@ -133,25 +133,9 @@ export default [
                     'index'
                 ],
                 pathGroups: [
-                    {
-                        pattern: 'components',
-                        group: 'internal'
-                    },
-                    {
-                        pattern: 'common',
-                        group: 'internal'
-                    },
-                    {
-                        pattern: 'routes/**',
-                        group: 'internal'
-                    },
-                    {
-                        pattern: 'assets/**',
-                        group: 'internal',
-                        position: 'after'
-                    }
+                    { pattern: '@/**', group: 'internal' },
+                    { pattern: '~/**', group: 'internal' },
                 ],
-                pathGroupsExcludedImportTypes: ['internal'],
                 alphabetize: {
                     order: 'asc',
                     caseInsensitive: true
