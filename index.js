@@ -5,7 +5,6 @@ import vue from 'eslint-plugin-vue'
 import yml from 'eslint-plugin-yml';
 import html from '@html-eslint/eslint-plugin';
 import jsdoc from 'eslint-plugin-jsdoc';
-import google from 'eslint-config-google';
 import imports from 'eslint-plugin-import';
 import vueParser from 'vue-eslint-parser';
 
@@ -39,10 +38,6 @@ export default [
     {
         name: 'jsdoc/recommended',
         ...jsdoc.configs['flat/recommended'],
-    },
-    {
-        name: 'google/recommended',
-        ...google,
     },
     {
         name: 'mylisterhub/base',
