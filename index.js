@@ -1,11 +1,11 @@
-import globals from 'globals';
 import js from '@eslint/js';
-import ts from 'typescript-eslint'
-import vue from 'eslint-plugin-vue'
-import yml from 'eslint-plugin-yml';
 import html from '@html-eslint/eslint-plugin';
-import jsdoc from 'eslint-plugin-jsdoc';
 import imports from 'eslint-plugin-import';
+import jsdoc from 'eslint-plugin-jsdoc';
+import vue from 'eslint-plugin-vue';
+import yml from 'eslint-plugin-yml';
+import globals from 'globals';
+import ts from 'typescript-eslint';
 import vueParser from 'vue-eslint-parser';
 
 export default [
