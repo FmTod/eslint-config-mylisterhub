@@ -13,8 +13,8 @@
   "license": "ISC",
   "dependencies": {
     "@eslint/js": "^9.11.1",
-    "@html-eslint/eslint-plugin": "^0.27.0",
-    "@html-eslint/parser": "^0.27.0",
+    "@html-eslint/eslint-plugin": "^0.37.0",
+    "@html-eslint/parser": "^0.37.0",
     "@typescript-eslint/parser": "^8.8.0",
     "eslint-import-resolver-typescript": "^4.2.2",
     "eslint-plugin-import": "^2.31.0",
