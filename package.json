@@ -18,7 +18,7 @@
     "@typescript-eslint/parser": "^8.8.0",
     "eslint-import-resolver-typescript": "^4.2.2",
     "eslint-plugin-import": "^2.31.0",
-    "eslint-plugin-jsdoc": "^50.3.1",
+    "eslint-plugin-jsdoc": "^57.0.0",
     "eslint-plugin-vue": "^9.28.0",
     "eslint-plugin-yml": "^1.14.0",
     "globals": "^15.10.0",
